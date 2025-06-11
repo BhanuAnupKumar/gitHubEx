@@ -6,7 +6,7 @@ const server = http.createServer((req, res) => {
     res.writeHead(200, { 'Content-Type': 'text/plain' });
     res.end('Hello, this is a GET response!');
   } else {
-    res.write(createTextEvent("Hey there! I'm your friendly assistant. How can I help you today?"));
+    res.write(createTextEvent("Hey there! I'm BHANU. How can I help you today?"));
     res.end(createDoneEvent());
   }
 });
